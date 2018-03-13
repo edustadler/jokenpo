@@ -1,0 +1,42 @@
+body {
+    background-color: #ca89ff;
+}
+.container {
+    padding: 10px;
+}
+
+.column {
+    float: left;
+    padding: 15px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.menu {
+    width: 25%;
+}
+
+.menu li {
+    padding: 8px;
+    margin-bottom: 8px;
+    color: #ffffff;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.nav {
+    background-color: #007bff;
+}
+
+a {
+    color: white;
+}
+.btn {
+    color: #fff;
+    border-radius: 25px;
+}
